@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Content } from './components/Content';
 import { SideBar } from './components/SideBar';
+import { Header } from './components/Header';
 
 
 import { api } from './services/api';
@@ -61,16 +62,11 @@ export function App() {
        />
 
       <div className="container">
-        <header>
-          <span className="category">Categoria:<span> {selectedGenre.title}</span></span>
-        </header>
-
-        <main>
-          <Content 
-          movies={movies} 
-          selectedGenre={selectedGenre} 
-          />
-        </main>
+        <Header selectedGenre={selectedGenre}/>
+        <Content 
+        movies={movies} 
+        selectedGenre={selectedGenre} 
+        />
       </div>
     </div>
   )
