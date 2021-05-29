@@ -1,5 +1,5 @@
 #README FIRST
 
-##Desafio-02 Ignite
+##Rocketseat Ignite
 
-###Componentizando a aplicação
+###Challenge 3: Componentizing a react app
