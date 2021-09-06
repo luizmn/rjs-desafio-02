@@ -10,7 +10,7 @@ Split an app in components in order to isolate responsabilities and provide easi
 
 Dividir uma aplicação em componentes afim de isolar as responsabilidades e facilitar a manutenção do código.
 
-- Cat&aacute;logo de filmes utilziando JSON server para simular uma API
+- Cat&aacute;logo de filmes utilizando JSON server para simular uma API
 
 Stack:
 
